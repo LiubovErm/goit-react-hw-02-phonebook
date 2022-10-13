@@ -56,7 +56,7 @@ export class App extends Component {
     const visibleContact = this.getVisibleContact();
 
     return (
-      <Box>
+      <Box mx='auto' maxWidth={500} >
         <h2>Phonebook</h2>
         <Form onSubmit={this.addContact} />
         <h2>Contacts</h2>

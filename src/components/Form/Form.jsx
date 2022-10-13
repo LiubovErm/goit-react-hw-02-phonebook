@@ -30,7 +30,7 @@ export class Form extends Component {
 
   render() {
     return (
-      <Box as='form' onSubmit={this.onSubmitForm} display='flex' flexDirection='column' maxWidth={400}>
+      <Box as='form' onSubmit={this.onSubmitForm} display='flex' flexDirection='column' maxWidth={500} mx='auto'>
         <Label htmlFor={this.nameInputId}>
           Name
           <Input

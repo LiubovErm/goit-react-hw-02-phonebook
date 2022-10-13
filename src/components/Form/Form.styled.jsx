@@ -7,7 +7,7 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  max-width: 400px;
+  max-width: 500px;
   margin-top: ${props => props.theme.space[3]}px;
   padding: ${props => props.theme.space[3]}px;
 `;
@@ -18,7 +18,10 @@ export const Button = styled.button`
   border: none;
   border-radius: ${props => props.theme.radii.normal};
   padding: ${props => props.theme.space[3]}px;
-  
+  margin-top: ${props => props.theme.space[5]}px;
+  margin-bottom: ${props => props.theme.space[5]}px;
+  background-color:${props => props.theme.colors.green};
+  color:${props => props.theme.colors.white};
   :hover,
   :focus {
     box-shadow: ${props => props.theme.shadows.normal};

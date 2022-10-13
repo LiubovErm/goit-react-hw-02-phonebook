@@ -6,7 +6,7 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  max-width: 400px;
-  margin-top: ${props => props.theme.space[3]}px;
+  width: 500px;
+  margin: 20px auto 0 auto;
   padding: ${props => props.theme.space[3]}px;;
 `;

@@ -2,6 +2,7 @@ import { Component } from 'react';
 import { Label, Input, Button } from './Form.styled';
 import { Box } from '../Box/Box';
 import { nanoid } from 'nanoid'
+import PropTypes from 'prop-types';
 
 export class Form extends Component {
   state = {
@@ -62,5 +63,10 @@ export class Form extends Component {
     );
   }
 }
+
+
+Form.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};
 
 
